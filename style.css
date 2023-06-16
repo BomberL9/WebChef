@@ -1,0 +1,35 @@
+h1, h3{
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url("assets/web-chefBG.jpg");
+}
+
+.header{
+    border-bottom: double;
+    opacity: 90%;
+    background: linear-gradient(100deg, #FFFACD 0%, #FAFAD2 100%);
+    color: #2E8B57;
+}
+
+.grid{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.gridItem{
+    display: flex;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 50px;
+    border: #98FB98 solid;
+    border-radius: 20px;
+    background-color: #98FB98;
+    transition: 0.3s;
+    opacity: 0.75;
+}
+
+.gridItem:hover{border: black solid}
